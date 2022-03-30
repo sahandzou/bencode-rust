@@ -81,3 +81,5 @@ mod tests {
         assert_eq!(parse(b"d3:bar4:spam3:fooi42ee"), Ok((&b""[..], BValue::BDict(dict))));
     }
 }
+
+fn main() {}
